@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.authors     = ['Tim Heckman']
   spec.email       = 't@heckman.io'
   spec.homepage    = 'https://github.com/theckman/knife-sink'
-  spec.license     = 'MIT'
+  spec.license     = 'Apache 2.0'
   spec.required_ruby_version = '>= 1.9.3'
 
   spec.test_files  = %x(git ls-files spec/*).split
