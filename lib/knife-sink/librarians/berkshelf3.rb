@@ -21,6 +21,7 @@ module Knife
   module Sink
     module Librarians
       # The class for vendoring via Berkshelf
+      #
       class Berkshelf3
         DEFAULT_VENDOR_PATH = File.join(Dir.pwd, 'vendor')
         DEFAULT_BERKSFILE_PATH = File.join(Dir.pwd, 'Berksfile')
