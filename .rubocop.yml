@@ -1,0 +1,7 @@
+FileName:
+  Exclude:
+    - lib/knife-sink.rb
+    - '**/Rakefile'
+    - '**/Gemfile'
+
+inherit_from: rubocop-todo.yml
