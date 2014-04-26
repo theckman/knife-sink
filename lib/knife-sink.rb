@@ -202,4 +202,5 @@
 #    limitations under the License.
 
 require 'knife-sink/version'
+require 'knife-sink/e'
 require 'knife-sink/librarians/berkshelf3'
