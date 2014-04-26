@@ -1,4 +1,4 @@
-# -*- coding:UTF-8 -*-
+# -*- coding: UTF-8 -*-
 # Author:: Tim Heckman <t@heckman.io>
 # Copyright:: Copyright (c) 2014 Tim Heckman
 # License:: Apache License, Version 2.0
@@ -14,13 +14,14 @@
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the s
+# See the License for the specific language governing permissions and
+# limitations under the License.
 
 module Knife
-  # Version for Sink module
-  #
   module Sink
-    VERSION = '0.0.2'
-    MAJOR, MINOR, REVISION = VERSION.split('.')
+    module E
+      class SinkErr < StandardError; end
+      class InvalidOpt < SinkErr; end
+    end
   end
 end
